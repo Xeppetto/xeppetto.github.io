@@ -9,54 +9,8 @@
     <atom:link href="https://xeppetto.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>소프트웨어 품질전문가 천년나무의 블로그</description>
-    <pubDate>Thu, 22 Dec 2022 03:22:00 GMT</pubDate>
+    <pubDate>Sat, 15 Oct 2022 01:22:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>다시, 예전 글들 복구 결심</title>
-      <link>https://xeppetto.github.io/Xeppetto/ThisBlog/20221222-%EB%8B%A4%EC%8B%9C-%EC%98%88%EC%A0%84-%EA%B8%80%EB%93%A4-%EB%B3%B5%EA%B5%AC-%EA%B2%B0%EC%8B%AC/</link>
-      <guid>https://xeppetto.github.io/Xeppetto/ThisBlog/20221222-%EB%8B%A4%EC%8B%9C-%EC%98%88%EC%A0%84-%EA%B8%80%EB%93%A4-%EB%B3%B5%EA%B5%AC-%EA%B2%B0%EC%8B%AC/</guid>
-      <pubDate>Thu, 22 Dec 2022 03:22:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;p&gt;연초에 계획한 내용을 많이 지키지 못했다. 1월 작성한 &lt;a href=&quot;/Xeppetto/ThisBlog/20220108-%EC%98%88%EC%A0%84-%EA%B8%80%EB%93%A4-%EB%B3%B5%EA%B5%AC-%EA%B3%84%ED</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<p>연초에 계획한 내용을 많이 지키지 못했다. 1월 작성한 <a href="/Xeppetto/ThisBlog/20220108-%EC%98%88%EC%A0%84-%EA%B8%80%EB%93%A4-%EB%B3%B5%EA%B5%AC-%EA%B3%84%ED%9A%8D/">예전 글들 복구 계획</a>에서 밝힌 바와 같이 필자는 ‘메모광’ 수준에 가깝다 보니 여러 클라우드 스토리지 여기저기에는 필자의 부족한 철학에 기반한 수 많은 ‘개발방법론’, ‘테스트 적용 방법론’, ‘품질개선 방법론’ 등이 정말 많이 들어 있다. </p><p>그런데 메모는 쉽지만 이를 글로 풀어 쓰기엔 쉽지 않다. 부지런해야 하기도 하고, 업무가 너무 바쁘면 도저히 짬이 안 나기도 하고. 이 블로그는 2020년 10월에 과거 블로그들을 정리할 목적으로 이전했지만, 2021년 12월이 되어서야 이를 실천하게 되었다. 그리고 2022년 1월에 계획한 내용은 2023년이나 되어야 완성이 되지 싶다.</p><p>서두르지 말자. 서두르지 말자. 서두르고 싶은 건 욕심이고, 회사 업무가 바쁘고 그 안에서 살아남고 성과를 내기 위해 노력해야 하는 건 현실이다. 욕심이 현실을 이기면 안 된다. 그래, 누가 열심히 들여다보는 블로그도 아니고, 댓글도 전혀 달리지 않으며, 필자가 자기만족으로 쓰는 글들이 대부분일 뿐인 블로그이니 빠르게 할 필요 없어 천천히 예전 글들을 옮겨 담아봐야겠다.</p><p>그런데 이건 결심인가, 아니면 자기의 위로인가….</p><hr><p>아, 그 이야기를 해야 하는구나.</p><p>필자가 정리하려 하는 글 중 대부분은 티스토리에 있다. 티스토리의 글들을 정리하고 Git hub 쪽으로 이동하려는 이유는 여러 가지가 있다. 워낙 오래전에 쓴 글이고, 지금도 뭘 잘 모르지만, 그때는 정말 뭘 잘 모르는 상태에서 쓴 글들도 많고, 또 누군가 필자의 지식을 뺏어갈까 전전긍긍하며 돌려 표현하거나, 일부러 감추는 표현들이 많다 보니 이를 풀어 써야 할 필요를 느꼈다.</p><p>그리고 그런 여러 이유 중 2020년쯤 결심을 굳히게 한 사건이 있었다. 필자가 주체적으로 겪은 사건이 아니라서 그때 그 사건을 말할 거리는 못 되고… 티스토리는 국내 회사이다 보니 국내법에 저촉된다고 판단하면 서버 운영 측에서 본인들의 입맛에 맞게 콘텐츠를 차단하거나 삭제해버려도 글쓴이의 입장에서 항의 외엔 할 수 있는 일이 없다. 쉽게 말해 글쓴이의 의도나 글 쓴 상황을 고려하지 않고, 카카오의 이익에 위배되면 행위를 수행한다는 의미이다. 예를 들어, 누군가 억울한 일이 있어 그런 글을 썼을 때 그 글이 카카오의 이익이 위배되면 차단 혹은 삭제해 버린다. 글쓴이는 해당 내용에 대해 저작권을 주장할 수 없다. 그리고 그런 부분에 대해 티스토리가 카카오 소속이 된 이후 고객센터의 답변은 건방지고, 무책임하기 짝이 없다. 카카오로 소속이 변경된 후 티스토리는 고객의 소리를 듣기보다는 정책에 대한 이야기만 복사-붙여넣기 하고 있다.</p><p>그래서 필자의 예전 글들은 크롤링 도구로 모두 백업해 둔 상태이며, 지금 운영 중인 <a href="https://softwaretestingreference.tistory.com/">Testing Reference</a> 블로그도 조만간 다른 Wordpress 구축하여 이동할 예정이다. </p>]]></content:encoded>
-      
-      
-      <category domain="https://xeppetto.github.io/categories/X%EC%9D%98%E8%A9%B1/">X의話</category>
-      
-      <category domain="https://xeppetto.github.io/categories/X%EC%9D%98%E8%A9%B1/Lv8-%E3%81%AE%EA%BD%83%E6%80%AA%E7%8D%B8/">Lv8+の꽃怪獸</category>
-      
-      
-      <category domain="https://xeppetto.github.io/tags/%EC%9D%B8%EC%83%9D/">인생</category>
-      
-      <category domain="https://xeppetto.github.io/tags/Blog/">Blog</category>
-      
-      <category domain="https://xeppetto.github.io/tags/%EC%B2%9C%EB%85%84%EB%82%98%EB%AC%B4/">천년나무</category>
-      
-      <category domain="https://xeppetto.github.io/tags/%EC%A6%90%EA%B2%81%EA%B2%8C-%EC%82%B4%EA%B8%B0/">즐겁게 살기</category>
-      
-      <category domain="https://xeppetto.github.io/tags/About/">About</category>
-      
-      <category domain="https://xeppetto.github.io/tags/Writer/">Writer</category>
-      
-      <category domain="https://xeppetto.github.io/tags/Xeppetto/">Xeppetto</category>
-      
-      <category domain="https://xeppetto.github.io/tags/%EA%B1%B4%EA%B0%95%ED%95%98%EA%B2%8C-%EC%82%B4%EA%B8%B0/">건강하게 살기</category>
-      
-      <category domain="https://xeppetto.github.io/tags/%EC%97%B0%EB%A7%90-%EA%B2%B0%EC%8B%AC/">연말 결심</category>
-      
-      <category domain="https://xeppetto.github.io/tags/%EC%8B%A4%EC%B2%9C/">실천</category>
-      
-      
-      <comments>https://xeppetto.github.io/Xeppetto/ThisBlog/20221222-%EB%8B%A4%EC%8B%9C-%EC%98%88%EC%A0%84-%EA%B8%80%EB%93%A4-%EB%B3%B5%EA%B5%AC-%EA%B2%B0%EC%8B%AC/#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>[Games] Railbound Level 8 공략</title>

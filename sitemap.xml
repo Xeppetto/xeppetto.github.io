@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xeppetto.github.io/Xeppetto/ThisBlog/20221222-%EB%8B%A4%EC%8B%9C-%EC%98%88%EC%A0%84-%EA%B8%80%EB%93%A4-%EB%B3%B5%EA%B5%AC-%EA%B2%B0%EC%8B%AC/</loc>
-    
-    <lastmod>2022-12-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xeppetto.github.io/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/Games/Railbound/Railbound-Level8/</loc>
     
     <lastmod>2022-10-15</lastmod>
@@ -880,20 +871,6 @@
   
   <url>
     <loc>https://xeppetto.github.io/tags/%EC%9E%AC%EB%B0%8B%EC%9C%BC%EB%A9%B4-%EA%B7%B8%EB%A7%8C/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EC%97%B0%EB%A7%90-%EA%B2%B0%EC%8B%AC/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EC%8B%A4%EC%B2%9C/</loc>
     <lastmod>2025-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
