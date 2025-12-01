@@ -1,3 +1,4 @@
+https://xeppetto.github.io/Xeppetto/ThisBlog/20251201-Site-Renewal-Again/
 https://xeppetto.github.io/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/Games/Railbound/Railbound-Level8/
 https://xeppetto.github.io/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/Games/Railbound/Railbound-Level7/
 https://xeppetto.github.io/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/Games/Railbound/Railbound-Level6/
@@ -62,6 +63,7 @@ https://xeppetto.github.io/Xeppetto/ThisBlog/20201011-ThisBlog-New-Greetings-Wit
 https://xeppetto.github.io/
 https://xeppetto.github.io/tags/%EA%B0%90%EC%82%AC%EC%9D%B8%EC%82%AC/
 https://xeppetto.github.io/tags/%ED%98%BC%EC%9E%A3%EB%A7%90/
+https://xeppetto.github.io/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/
 https://xeppetto.github.io/tags/SCM-Music-Player/
 https://xeppetto.github.io/tags/%EB%B0%B0%EA%B2%BD%EC%9D%8C%EC%95%85/
 https://xeppetto.github.io/tags/%EC%9D%8C%EC%95%85/
@@ -142,6 +144,11 @@ https://xeppetto.github.io/tags/Context-Menu/
 https://xeppetto.github.io/tags/%EB%A7%88%EC%9A%B0%EC%8A%A4-%EC%9A%B0%ED%81%B4%EB%A6%AD-%EB%A9%94%EB%89%B4/
 https://xeppetto.github.io/tags/Railbound/
 https://xeppetto.github.io/tags/Secure-Boot/
+https://xeppetto.github.io/tags/%EB%A6%AC%EB%89%B4%EC%96%BC/
+https://xeppetto.github.io/tags/%EC%9E%AC%EC%9E%91%EC%97%85/
+https://xeppetto.github.io/tags/AI/
+https://xeppetto.github.io/tags/AI%EC%8B%9C%EB%8C%80/
+https://xeppetto.github.io/tags/%EB%8B%A4%EC%8B%9C-%EC%83%9D%EA%B0%81%ED%95%98%EA%B8%B0/
 https://xeppetto.github.io/categories/X%EC%9D%98%E8%A9%B1/
 https://xeppetto.github.io/categories/X%EC%9D%98%E8%A9%B1/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EC%95%BC%EA%B8%B0/
 https://xeppetto.github.io/categories/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/
