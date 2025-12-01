@@ -17,7 +17,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta name="keywords" content="Operating System,Development,Environment,WSL,Docker,Windows,Linux,Database,MariaDB" />
+    <meta name="keywords" content="Development,Environment,WSL,Docker,Operating System,Windows,Linux,Database,MariaDB" />
     
     <!-- 도메인 주소 자체를 걸었을 때 image가 표시되지 않는 문제가 있어서 변경
     <meta name="description" content="목차 MariaDB란? MariaDB를 Docker에 설치하기 MariaDB에 기본 테이블 생성하기 HeidiSQL로 접속하기     MariaDB란?이번 MariaDB 포스팅은 mySQL 환경 설정 포스팅과 상당히 유사하다. 왜냐하면 이 둘은 자매이기 때문이다. 원래 오픈소스였던 mySQL이 대기업으로 흡수된 후 mySQL을 만든 사람이 다시 만든 DB이">
@@ -31,15 +31,15 @@
 <meta property="article:published_time" content="2021-04-20T01:10:00.000Z">
 <meta property="article:modified_time" content="2021-05-31T11:20:20.000Z">
 <meta property="article:author" content="Xeppetto">
-<meta property="article:tag" content="Database">
 <meta property="article:tag" content="Development">
-<meta property="article:tag" content="Docker">
 <meta property="article:tag" content="Environment">
-<meta property="article:tag" content="Linux">
-<meta property="article:tag" content="MariaDB">
-<meta property="article:tag" content="Operating System">
 <meta property="article:tag" content="WSL">
+<meta property="article:tag" content="Docker">
+<meta property="article:tag" content="Operating System">
 <meta property="article:tag" content="Windows">
+<meta property="article:tag" content="Linux">
+<meta property="article:tag" content="Database">
+<meta property="article:tag" content="MariaDB">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://xeppetto.github.io/thumbnails/Software/WSL2-Docker-thumbnail.png">
     -->
@@ -56,15 +56,15 @@
 <meta property="article:published_time" content="2021-04-20T01:10:00.000Z">
 <meta property="article:modified_time" content="2021-05-31T11:20:20.000Z">
 <meta property="article:author" content="Xeppetto">
-<meta property="article:tag" content="Database">
 <meta property="article:tag" content="Development">
-<meta property="article:tag" content="Docker">
 <meta property="article:tag" content="Environment">
-<meta property="article:tag" content="Linux">
-<meta property="article:tag" content="MariaDB">
-<meta property="article:tag" content="Operating System">
 <meta property="article:tag" content="WSL">
+<meta property="article:tag" content="Docker">
+<meta property="article:tag" content="Operating System">
 <meta property="article:tag" content="Windows">
+<meta property="article:tag" content="Linux">
+<meta property="article:tag" content="Database">
+<meta property="article:tag" content="MariaDB">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://xeppetto.github.io/thumbnails/Software/WSL2-Docker-thumbnail.png">
     
@@ -125,7 +125,7 @@ ga('send', 'pageview');
     
 
 
-<meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/rss2.xml" title="천년나무 블로그" type="application/rss+xml">
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/rss2.xml" title="천년나무 블로그" type="application/rss+xml">
 </head>
 
 
@@ -283,26 +283,23 @@ ga('send', 'pageview');
 <br>
 
 <h3 id="MariaDB을-Docker에-설치하기"><a href="#MariaDB을-Docker에-설치하기" class="headerlink" title="MariaDB을 Docker에 설치하기"></a>MariaDB을 Docker에 설치하기</h3><ol>
-<li>먼저 <a target="_blank" rel="noopener" href="https://hub.docker.com/">hub.docker.com</a>로 이동하여 검색창에 ‘mariadb’를 입력하자.<br>  <img src="/images/WSLnDocker/20210420-Docker-MariaDB/mariadb-installing-on-docker-01.png" alt="MariaL을 검색 후 제일 많이 다운로드한 공식 이미지를 찾자"></li>
-</ol>
+<li><p>먼저 <a target="_blank" rel="noopener" href="https://hub.docker.com/">hub.docker.com</a>로 이동하여 검색창에 ‘mariadb’를 입력하자.<br>  <img src="/images/WSLnDocker/20210420-Docker-MariaDB/mariadb-installing-on-docker-01.png" alt="MariaL을 검색 후 제일 많이 다운로드한 공식 이미지를 찾자"></p>
 <br>
-
-<ol start="2">
-<li>화면의 내용을 쭉 읽어봐도 좋지만 아래를 입력하여 MariaDB image를 본인의 컴퓨터로 데려오면 된다.</li>
-</ol>
+</li>
+<li><p>화면의 내용을 쭉 읽어봐도 좋지만 아래를 입력하여 MariaDB image를 본인의 컴퓨터로 데려오면 된다.</p>
   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull mariadb</span><br></pre></td></tr></table></figure>
-<p>  <img src="/images/WSLnDocker/20210420-Docker-MariaDB/mariadb-installing-on-docker-02.png" alt="docker pull 결과"><br><br></p>
-<ol start="3">
-<li>데려온 docker image를 먼저 확인하여 정상적으로 MariaDB image가 표시되는지 확인한다.</li>
-</ol>
+<p>  <img src="/images/WSLnDocker/20210420-Docker-MariaDB/mariadb-installing-on-docker-02.png" alt="docker pull 결과"></p>
+<br>
+</li>
+<li><p>데려온 docker image를 먼저 확인하여 정상적으로 MariaDB image가 표시되는지 확인한다.</p>
   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker images</span><br></pre></td></tr></table></figure>
-<p>  <img src="/images/WSLnDocker/20210420-Docker-MariaDB/mariadb-installing-on-docker-03.png" alt="MariaDB image 표시"><br><br></p>
-<ol start="4">
-<li>Container를 생성한다.</li>
+<p>  <img src="/images/WSLnDocker/20210420-Docker-MariaDB/mariadb-installing-on-docker-03.png" alt="MariaDB image 표시"></p>
+<br>
+</li>
+<li><p>Container를 생성한다.</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run --name mariadb01 -p 3307:3306 -e MYSQL_ROOT_PASSWORD=<span class="string">&quot;&lt;YourStrong@Passw0rd&gt;&quot;</span> -d mariadb</span><br></pre></td></tr></table></figure></li>
 </ol>
-  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run --name mariadb01 -p 3307:3306 -e MYSQL_ROOT_PASSWORD=<span class="string">&quot;&lt;YourStrong@Passw0rd&gt;&quot;</span> -d mariadb</span><br></pre></td></tr></table></figure>
-
-<p>  위의 각 항목은 다음과 같다.<br>	(1) docker run : docker image에서 container를 생성한다.<br>  (2) –name mariadb01 : container의 이름은 mariadb01로 한다.<br>  (3) -e : container 내 변수를 설정한다.<br>  (4) MYSQL_ROOT_PASSWORD&#x3D;”암호” : ROOT 암호를 설정 따옴표 내의 내용은 암호이다.<br>  (5) -d mariadb : mariadb이라는 이미지에서 분리하여 container를 생성한다.<br>  (6) -p 3307:3306 : 해당 container의 port forwarding에 대해 inbound는 3307로 하고, outbound는 3306으로 설정한다.<br>  <br></p>
+<p>  위의 각 항목은 다음과 같다.<br>    (1) docker run : docker image에서 container를 생성한다.<br>  (2) –name mariadb01 : container의 이름은 mariadb01로 한다.<br>  (3) -e : container 내 변수를 설정한다.<br>  (4) MYSQL_ROOT_PASSWORD&#x3D;”암호” : ROOT 암호를 설정 따옴표 내의 내용은 암호이다.<br>  (5) -d mariadb : mariadb이라는 이미지에서 분리하여 container를 생성한다.<br>  (6) -p 3307:3306 : 해당 container의 port forwarding에 대해 inbound는 3307로 하고, outbound는 3306으로 설정한다.<br>  <br></p>
 <blockquote>
 <p>이것은 Docker의 port forwarding 기능이다. 외부에서 접속 시 3307 포트를 사용하여 container에 정보를 전달하면, container는 내부적으로 3306 포트를 사용하여 처리하고 정보를 외부로 보낸다.<br>이렇게 설정하는 이유는 mySQL의 port도 MariaDB와 동일하게 3306 포트를 사용하기 때문이며, 필자는 이 두개를 모두 설정해 두고 테스트하기 때문이다. 동시에 동일한 포트에 신호를 주면 오류가 발생한다. </p>
 </blockquote>
@@ -311,62 +308,46 @@ ga('send', 'pageview');
 
 <p>  <img src="/images/WSLnDocker/20210420-Docker-MariaDB/mariadb-installing-on-docker-04.png" alt="MariaDB container 생성"><br><br></p>
 <ol start="5">
-<li>생성한 컨테이너가 정상적으로 실행 중인 지 확인한다.</li>
-</ol>
+<li><p>생성한 컨테이너가 정상적으로 실행 중인 지 확인한다.</p>
   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> docker ps -a</span><br></pre></td></tr></table></figure>
-<pre><code>![mariadb01 container 확인](/images/WSLnDocker/20210420-Docker-MariaDB/mariadb-installing-on-docker-05.png)
-</code></pre>
+<p> <img src="/images/WSLnDocker/20210420-Docker-MariaDB/mariadb-installing-on-docker-05.png" alt="mariadb01 container 확인"></p>
 <br>
-
-<ol start="6">
-<li>이제 생성한 Container를 이용하여 MariaDB 서버를 실행해본다.</li>
-</ol>
+</li>
+<li><p>이제 생성한 Container를 이용하여 MariaDB 서버를 실행해본다.</p>
   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> docker <span class="built_in">exec</span> --user=<span class="string">&quot;root&quot;</span> -it mariadb01 bash</span><br></pre></td></tr></table></figure>
-<p>  <img src="/images/WSLnDocker/20210420-Docker-MariaDB/mariadb-installing-on-docker-06.png" alt="mariadb01 container의 bash"><br><br></p>
-<ol start="7">
-<li>다음은 MariaDB Database를 실행시킨다. MariaDB는 mysql 콘솔로 실행한다.</li>
+<p>  <img src="/images/WSLnDocker/20210420-Docker-MariaDB/mariadb-installing-on-docker-06.png" alt="mariadb01 container의 bash"></p>
+<br>
+</li>
+<li><p>다음은 MariaDB Database를 실행시킨다. MariaDB는 mysql 콘솔로 실행한다.</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql --user=root --password=<span class="string">&quot;&lt;YourStrong@Passw0rd&gt;&quot;</span></span><br></pre></td></tr></table></figure></li>
 </ol>
-  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql --user=root --password=<span class="string">&quot;&lt;YourStrong@Passw0rd&gt;&quot;</span></span><br></pre></td></tr></table></figure>
 <p>  아래와 같이 mysql 프롬프트가 나타나면 성공적으로 접속한 것이다.</p>
 <p>  <img src="/images/WSLnDocker/20210420-Docker-MariaDB/mariadb-installing-on-docker-07.png" alt="mariadb01 container의 bash"></p>
 <br>
 
 <h3 id="MariaDB에-기본-테이블-생성하기"><a href="#MariaDB에-기본-테이블-생성하기" class="headerlink" title="MariaDB에 기본 테이블 생성하기"></a>MariaDB에 기본 테이블 생성하기</h3><p>아래는 기본적인 MariaDB의 명령어이자, GUI를 사용하기 전에 새로운 Database와 Data Table을 생성하는 과정이다. 명령어도 볼 겸 한 번 따라해 보자.</p>
 <ol>
-<li>MariaDB Database 접속 후 서버 내 모든 데이터베이스 이름 확인하는 방법<br></li>
-</ol>
+<li><p>MariaDB Database 접속 후 서버 내 모든 데이터베이스 이름 확인하는 방법<br></p>
   <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">MariaDB<span class="operator">&gt;</span> <span class="keyword">SHOW</span> DATABASES;</span><br></pre></td></tr></table></figure>
-
-<ol start="2">
-<li>DATABASE 생성하기<br></li>
-</ol>
+</li>
+<li><p>DATABASE 생성하기<br></p>
   <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">MariaDB<span class="operator">&gt;</span> <span class="keyword">CREATE</span> DATABASE 데이터베이스이름;</span><br></pre></td></tr></table></figure>
-
-<ol start="3">
-<li>데이터베이스 사용<br></li>
-</ol>
+</li>
+<li><p>데이터베이스 사용<br></p>
   <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">MariaDB<span class="operator">&gt;</span> USE 데이터베이스이름;</span><br></pre></td></tr></table></figure>
-
-<ol start="4">
-<li>특정 DB 내 모든 Table 보기 <br></li>
-</ol>
+</li>
+<li><p>특정 DB 내 모든 Table 보기 <br></p>
   <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">MariaDB<span class="operator">&gt;</span> <span class="keyword">SHOW</span> TABLES;</span><br></pre></td></tr></table></figure>
-
-<ol start="5">
-<li>Data Table을 생성하기</li>
-</ol>
+</li>
+<li><p>Data Table을 생성하기</p>
   <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">MariaDB<span class="operator">&gt;</span> <span class="keyword">CREATE TABLE</span> 데이터테이블이름 (데이터명 데이터유형);</span><br></pre></td></tr></table></figure>
-
-<ol start="6">
-<li>Data Table에 데이터 입력하기</li>
-</ol>
+</li>
+<li><p>Data Table에 데이터 입력하기</p>
   <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">MariaDB<span class="operator">&gt;</span> <span class="keyword">INSERT INTO</span> 데이터테이블이름 (데이터명) <span class="keyword">VALUES</span>(데이터값);</span><br></pre></td></tr></table></figure>
-
-<ol start="7">
-<li>Data Table의 데이터 보기</li>
+</li>
+<li><p>Data Table의 데이터 보기</p>
+  <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">MariaDB<span class="operator">&gt;</span> <span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> 데이터테이블이름;</span><br></pre></td></tr></table></figure></li>
 </ol>
-  <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">MariaDB<span class="operator">&gt;</span> <span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> 데이터테이블이름;</span><br></pre></td></tr></table></figure>
-
 <p>결과는 아래와 같다.</p>
 <p><img src="/images/WSLnDocker/20210420-Docker-MariaDB/mariadb-installing-on-docker-08.png" alt="MariaDB 실행 결과"></p>
 <br>
@@ -375,12 +356,11 @@ ga('send', 'pageview');
 <p>앞서 언급한 바와 같이 MariaDB는 mySQL과 동일한 소스코드, 동일한 구조, 동일한 포트를 사용하므로 <a href="/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/WSL-and-Docker/12-Docker-mySQL/">mySQL 환경 설정 포스팅</a>에서 설명한 Workbench를 사용해서 접속해도 무방하다. </p>
 <p>이번에 소개할 HeidiSQL도 GUI 도구이며, 오픈소스이다. </p>
 <ol>
-<li>먼저 HeidiSQL 설치를 위해 <a target="_blank" rel="noopener" href="https://www.heidisql.com/">공식 홈페이지</a>로 이동하자.</li>
-</ol>
+<li><p>먼저 HeidiSQL 설치를 위해 <a target="_blank" rel="noopener" href="https://www.heidisql.com/">공식 홈페이지</a>로 이동하자. </p>
 <br>
-
-<ol start="2">
-<li>다운로드 페이지 상단의 링크를 클릭하여 다운로드하자.</li>
+</li>
+<li><p>다운로드 페이지 상단의 링크를 클릭하여 다운로드하자.</p>
+</li>
 </ol>
 <p>  <img src="/images/WSLnDocker/20210420-Docker-MariaDB/heidi-installing-01.png" alt="HeidiSQL Installer 다운로드"><br><br></p>
 <ol start="3">
@@ -403,10 +383,8 @@ ga('send', 'pageview');
 <li>주소 : 127.0.0.1</li>
 <li>ID : root</li>
 <li>PW : 위에서 설정한 root 암호 입력</li>
-<li>Port : 3307<br></li>
+<li>Port : 3307<br><br></li>
 </ul>
-<br>
-
 <ol start="7">
 <li>정상적으로 접속되면 데이터베이스를 선택한 후 데이터테이블을 조회해 보자. 아래와 같이 출력되면 정상이다.</li>
 </ol>
@@ -423,7 +401,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="https://xeppetto.github.io/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/WSL-and-Docker/13-Docker-MariaDB/" data-id="cuiddqgCOvKD6lDkZBp_eJ0Ux" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://xeppetto.github.io/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/WSL-and-Docker/13-Docker-MariaDB/" data-id="cminke7ez002mshrd36x19ef8" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -499,7 +477,7 @@ ga('send', 'pageview');
         },
         "headline": "[Docker] Docker에 MariaDB 설치하기",
         "image": "https://xeppetto.github.io/thumbnails/Software/WSL2-Docker-thumbnail.png",
-        "keywords": "Operating System Development Environment WSL Docker Windows Linux Database MariaDB",
+        "keywords": "Development Environment WSL Docker Operating System Windows Linux Database MariaDB",
         "genre": "소프트웨어 WSL & Docker",
         "datePublished": "2021-04-20",
         "dateCreated": "2021-04-20",
@@ -515,7 +493,7 @@ HeidiSQL로 접속하기
 
 
 MariaDB란?이번 MariaDB 포스팅은 mySQL 환경 설정 포스팅과 상당히 유사하다. 왜냐하면 이 둘은 자매이기 때문이다. 원래 오픈소스였던 mySQL이 대기업으로 흡수된 후 mySQL을 만든 사람이 다시 만든 DB이",
-        "wordCount": 785
+        "wordCount": 781
     }
 </script>
 
@@ -727,7 +705,7 @@ MariaDB란?이번 MariaDB 포스팅은 mySQL 환경 설정 포스팅과 상당�
     <div class="widget-wrap widget-float">
         <h3 class="widget-title">tag cloud</h3>
         <div class="widget tagcloud">
-            <a href="/tags/AMD/" style="font-size: 10.77px;">AMD</a> <a href="/tags/About/" style="font-size: 10.77px;">About</a> <a href="/tags/Address/" style="font-size: 10px;">Address</a> <a href="/tags/Apt/" style="font-size: 10px;">Apt</a> <a href="/tags/Blog/" style="font-size: 13.85px;">Blog</a> <a href="/tags/Browser/" style="font-size: 10px;">Browser</a> <a href="/tags/CommonMark/" style="font-size: 10px;">CommonMark</a> <a href="/tags/Compatibility/" style="font-size: 10px;">Compatibility</a> <a href="/tags/Computer/" style="font-size: 10px;">Computer</a> <a href="/tags/Context-Menu/" style="font-size: 13.85px;">Context Menu</a> <a href="/tags/Database/" style="font-size: 13.08px;">Database</a> <a href="/tags/Decoding/" style="font-size: 10px;">Decoding</a> <a href="/tags/Development/" style="font-size: 20px;">Development</a> <a href="/tags/Docker/" style="font-size: 17.69px;">Docker</a> <a href="/tags/Encoding/" style="font-size: 10px;">Encoding</a> <a href="/tags/Environment/" style="font-size: 20px;">Environment</a> <a href="/tags/GFM/" style="font-size: 16.15px;">GFM</a> <a href="/tags/GPT/" style="font-size: 10px;">GPT</a> <a href="/tags/Github/" style="font-size: 16.92px;">Github</a> <a href="/tags/Grammar/" style="font-size: 12.31px;">Grammar</a> <a href="/tags/HTML/" style="font-size: 16.92px;">HTML</a> <a href="/tags/Install/" style="font-size: 10px;">Install</a> <a href="/tags/Installation/" style="font-size: 10px;">Installation</a> <a href="/tags/Linux/" style="font-size: 17.69px;">Linux</a> <a href="/tags/MBR/" style="font-size: 10px;">MBR</a> <a href="/tags/MariaDB/" style="font-size: 10px;">MariaDB</a> <a href="/tags/Markdown/" style="font-size: 16.92px;">Markdown</a> <a href="/tags/Markup/" style="font-size: 16.92px;">Markup</a> <a href="/tags/Music/" style="font-size: 10.77px;">Music</a> <a href="/tags/Notepad/" style="font-size: 10px;">Notepad</a> <a href="/tags/Notepad/" style="font-size: 10px;">Notepad++</a> <a href="/tags/OSX/" style="font-size: 10px;">OSX</a> <a href="/tags/Operating-System/" style="font-size: 20px;">Operating System</a> <a href="/tags/Package-Manager/" style="font-size: 10px;">Package Manager</a> <a href="/tags/PostgreSQL/" style="font-size: 10px;">PostgreSQL</a> <a href="/tags/Railbound/" style="font-size: 16.15px;">Railbound</a> <a href="/tags/React/" style="font-size: 10px;">React</a> <a href="/tags/SCM-Music-Player/" style="font-size: 10.77px;">SCM Music Player</a> <a href="/tags/SQLServer/" style="font-size: 10px;">SQLServer</a> <a href="/tags/Secure-Boot/" style="font-size: 10px;">Secure Boot</a> <a href="/tags/Storage/" style="font-size: 10px;">Storage</a> <a href="/tags/TPM/" style="font-size: 10px;">TPM</a> <a href="/tags/Testing/" style="font-size: 10px;">Testing</a> <a href="/tags/Tibero/" style="font-size: 10px;">Tibero</a> <a href="/tags/Tool/" style="font-size: 10.77px;">Tool</a> <a href="/tags/Update/" style="font-size: 10px;">Update</a> <a href="/tags/Upgrade/" style="font-size: 10px;">Upgrade</a> <a href="/tags/WSL/" style="font-size: 18.46px;">WSL</a> <a href="/tags/WSL1/" style="font-size: 11.54px;">WSL1</a> <a href="/tags/WSL2/" style="font-size: 12.31px;">WSL2</a> <a href="/tags/Web/" style="font-size: 10px;">Web</a> <a href="/tags/Web-Standard/" style="font-size: 10px;">Web Standard</a> <a href="/tags/Windows/" style="font-size: 20px;">Windows</a> <a href="/tags/Windows10/" style="font-size: 15.38px;">Windows10</a> <a href="/tags/Windows11/" style="font-size: 12.31px;">Windows11</a> <a href="/tags/Writer/" style="font-size: 10.77px;">Writer</a> <a href="/tags/Xeppetto/" style="font-size: 10.77px;">Xeppetto</a> <a href="/tags/Youtube/" style="font-size: 10.77px;">Youtube</a> <a href="/tags/convert/" style="font-size: 10px;">convert</a> <a href="/tags/fTPM/" style="font-size: 10px;">fTPM</a> <a href="/tags/mySQL/" style="font-size: 10px;">mySQL</a> <a href="/tags/%EA%B0%90%EC%82%AC%EC%9D%B8%EC%82%AC/" style="font-size: 10px;">감사인사</a> <a href="/tags/%EA%B0%9C%EC%9D%B8-%EC%82%AC%EC%A7%84/" style="font-size: 10px;">개인 사진</a> <a href="/tags/%EA%B1%B4%EA%B0%95%ED%95%98%EA%B2%8C-%EC%82%B4%EA%B8%B0/" style="font-size: 10.77px;">건강하게 살기</a> <a href="/tags/%EA%B2%8C%EC%9E%84/" style="font-size: 18.46px;">게임</a> <a href="/tags/%EA%B3%A0%EB%AF%BC/" style="font-size: 10px;">고민</a> <a href="/tags/%EA%B3%BC%EA%B1%B0/" style="font-size: 10px;">과거</a> <a href="/tags/%EA%B8%80-%EC%9E%98-%EC%93%B0%EB%8A%94-%EB%B0%A9%EB%B2%95/" style="font-size: 13.85px;">글 잘 쓰는 방법</a> <a href="/tags/%EA%B8%80%EC%93%B0%EA%B8%B0/" style="font-size: 14.62px;">글쓰기</a> <a href="/tags/%EA%B9%83%ED%97%99/" style="font-size: 16.92px;">깃헙</a> <a href="/tags/%EB%82%98%ED%98%BC%EC%9E%90-%EB%86%80%EA%B8%B0/" style="font-size: 10px;">나혼자 놀기</a> <a href="/tags/%EB%86%80%EC%9E%90/" style="font-size: 18.46px;">놀자</a> <a href="/tags/%EB%8F%84%EB%84%A4%EB%A6%AC%EC%B9%B4%EB%85%B8/" style="font-size: 10.77px;">도네리카노</a> <a href="/tags/%EB%A1%9C%EC%8A%A4%ED%8A%B8%EC%95%84%ED%81%AC/" style="font-size: 13.08px;">로스트아크</a> <a href="/tags/%EB%A7%88%EC%9A%B0%EC%8A%A4-%EC%9A%B0%ED%81%B4%EB%A6%AD-%EB%A9%94%EB%89%B4/" style="font-size: 13.85px;">마우스 우클릭 메뉴</a> <a href="/tags/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/" style="font-size: 16.92px;">마크다운</a> <a href="/tags/%EB%A7%9E%EC%B6%A4%EB%B2%95/" style="font-size: 13.85px;">맞춤법</a> <a href="/tags/%EB%A7%A4%EB%89%B4%EC%96%BC/" style="font-size: 18.46px;">매뉴얼</a> <a href="/tags/%EB%A7%A4%EC%9D%BC-%EA%B8%80%EC%93%B0%EA%B8%B0/" style="font-size: 10px;">매일 글쓰기</a> <a href="/tags/%EB%AF%B8%EB%9E%98/" style="font-size: 10px;">미래</a> <a href="/tags/%EB%B0%B0%EA%B2%BD%EC%9D%8C%EC%95%85/" style="font-size: 10.77px;">배경음악</a> <a href="/tags/%EB%B2%84%EA%B7%B8%EB%B3%B4%EA%B3%A0/" style="font-size: 13.85px;">버그보고</a> <a href="/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/" style="font-size: 10.77px;">블로그</a> <a href="/tags/%EC%83%88-%ED%95%B4-%EA%B3%84%ED%9A%8D/" style="font-size: 10px;">새 해 계획</a> <a href="/tags/%EC%83%9D%EA%B0%81/" style="font-size: 10px;">생각</a> <a href="/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/" style="font-size: 19.23px;">소프트웨어</a> <a href="/tags/%EC%8B%A4%EB%AC%B4/" style="font-size: 13.85px;">실무</a> <a href="/tags/%EC%8B%A4%EC%B2%9C/" style="font-size: 10px;">실천</a> <a href="/tags/%EC%95%88%EB%82%B4%EC%84%9C/" style="font-size: 18.46px;">안내서</a> <a href="/tags/%EC%97%B0%EB%A7%90-%EA%B2%B0%EC%8B%AC/" style="font-size: 10px;">연말 결심</a> <a href="/tags/%EC%97%B4%EC%A0%95/" style="font-size: 10px;">열정</a> <a href="/tags/%EC%9D%8C%EC%95%85/" style="font-size: 10.77px;">음악</a> <a href="/tags/%EC%9D%B8%EC%83%9D/" style="font-size: 11.54px;">인생</a> <a href="/tags/%EC%9D%B8%EC%83%9D-%EB%85%B8%EB%9E%98/" style="font-size: 10.77px;">인생 노래</a> <a href="/tags/%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8/" style="font-size: 10px;">인스타그램</a> <a href="/tags/%EC%9E%90%EB%8F%99%EC%99%84%EC%84%B1/" style="font-size: 10px;">자동완성</a> <a href="/tags/%EC%9E%AC%EB%B0%8B%EB%8B%A4/" style="font-size: 18.46px;">재밋다</a> <a href="/tags/%EC%9E%AC%EB%B0%8B%EC%9C%BC%EB%A9%B4-%EA%B7%B8%EB%A7%8C/" style="font-size: 10px;">재밋으면 그만</a> <a href="/tags/%EC%A0%95%EC%B2%B4%EC%84%B1/" style="font-size: 10px;">정체성</a> <a href="/tags/%EC%A6%90%EA%B2%81%EA%B2%8C-%EA%B8%80%EC%93%B0%EA%B8%B0/" style="font-size: 10.77px;">즐겁게 글쓰기</a> <a href="/tags/%EC%A6%90%EA%B2%81%EA%B2%8C-%EC%82%B4%EA%B8%B0/" style="font-size: 12.31px;">즐겁게 살기</a> <a href="/tags/%EC%A6%90%EA%B8%B0%EC%9E%90/" style="font-size: 18.46px;">즐기자</a> <a href="/tags/%EC%B2%9C%EB%85%84%EB%82%98%EB%AC%B4/" style="font-size: 13.85px;">천년나무</a> <a href="/tags/%EC%BB%A4%ED%94%BC/" style="font-size: 10.77px;">커피</a> <a href="/tags/%ED%85%8C%EC%8A%A4%ED%8C%85/" style="font-size: 13.85px;">테스팅</a> <a href="/tags/%ED%95%9C%EA%B5%AD%EC%96%B4/" style="font-size: 13.85px;">한국어</a> <a href="/tags/%ED%95%9C%EA%B8%80/" style="font-size: 13.85px;">한글</a> <a href="/tags/%ED%98%84%EC%9E%AC/" style="font-size: 10px;">현재</a> <a href="/tags/%ED%98%BC%EC%9E%A3%EB%A7%90/" style="font-size: 13.85px;">혼잣말</a> <a href="/tags/%ED%9B%84%EC%9B%90/" style="font-size: 10.77px;">후원</a>
+            <a href="/tags/AMD/" style="font-size: 10.77px;">AMD</a> <a href="/tags/About/" style="font-size: 10.77px;">About</a> <a href="/tags/Address/" style="font-size: 10px;">Address</a> <a href="/tags/Apt/" style="font-size: 10px;">Apt</a> <a href="/tags/Blog/" style="font-size: 13.85px;">Blog</a> <a href="/tags/Browser/" style="font-size: 10px;">Browser</a> <a href="/tags/CommonMark/" style="font-size: 10px;">CommonMark</a> <a href="/tags/Compatibility/" style="font-size: 10px;">Compatibility</a> <a href="/tags/Computer/" style="font-size: 10px;">Computer</a> <a href="/tags/Context-Menu/" style="font-size: 13.85px;">Context Menu</a> <a href="/tags/Database/" style="font-size: 13.08px;">Database</a> <a href="/tags/Decoding/" style="font-size: 10px;">Decoding</a> <a href="/tags/Development/" style="font-size: 20px;">Development</a> <a href="/tags/Docker/" style="font-size: 17.69px;">Docker</a> <a href="/tags/Encoding/" style="font-size: 10px;">Encoding</a> <a href="/tags/Environment/" style="font-size: 20px;">Environment</a> <a href="/tags/GFM/" style="font-size: 16.15px;">GFM</a> <a href="/tags/GPT/" style="font-size: 10px;">GPT</a> <a href="/tags/Github/" style="font-size: 16.92px;">Github</a> <a href="/tags/Grammar/" style="font-size: 12.31px;">Grammar</a> <a href="/tags/HTML/" style="font-size: 16.92px;">HTML</a> <a href="/tags/Install/" style="font-size: 10px;">Install</a> <a href="/tags/Installation/" style="font-size: 10px;">Installation</a> <a href="/tags/Linux/" style="font-size: 17.69px;">Linux</a> <a href="/tags/MBR/" style="font-size: 10px;">MBR</a> <a href="/tags/MariaDB/" style="font-size: 10px;">MariaDB</a> <a href="/tags/Markdown/" style="font-size: 16.92px;">Markdown</a> <a href="/tags/Markup/" style="font-size: 16.92px;">Markup</a> <a href="/tags/Music/" style="font-size: 10.77px;">Music</a> <a href="/tags/Notepad/" style="font-size: 10px;">Notepad</a> <a href="/tags/Notepad/" style="font-size: 10px;">Notepad++</a> <a href="/tags/OSX/" style="font-size: 10px;">OSX</a> <a href="/tags/Operating-System/" style="font-size: 20px;">Operating System</a> <a href="/tags/Package-Manager/" style="font-size: 10px;">Package Manager</a> <a href="/tags/PostgreSQL/" style="font-size: 10px;">PostgreSQL</a> <a href="/tags/Railbound/" style="font-size: 16.15px;">Railbound</a> <a href="/tags/React/" style="font-size: 10px;">React</a> <a href="/tags/SCM-Music-Player/" style="font-size: 10.77px;">SCM Music Player</a> <a href="/tags/SQLServer/" style="font-size: 10px;">SQLServer</a> <a href="/tags/Secure-Boot/" style="font-size: 10px;">Secure Boot</a> <a href="/tags/Storage/" style="font-size: 10px;">Storage</a> <a href="/tags/TPM/" style="font-size: 10px;">TPM</a> <a href="/tags/Testing/" style="font-size: 10px;">Testing</a> <a href="/tags/Tibero/" style="font-size: 10px;">Tibero</a> <a href="/tags/Tool/" style="font-size: 10.77px;">Tool</a> <a href="/tags/Update/" style="font-size: 10px;">Update</a> <a href="/tags/Upgrade/" style="font-size: 10px;">Upgrade</a> <a href="/tags/WSL/" style="font-size: 18.46px;">WSL</a> <a href="/tags/WSL1/" style="font-size: 11.54px;">WSL1</a> <a href="/tags/WSL2/" style="font-size: 11.54px;">WSL2</a> <a href="/tags/Web/" style="font-size: 10px;">Web</a> <a href="/tags/Web-Standard/" style="font-size: 10px;">Web Standard</a> <a href="/tags/Windows/" style="font-size: 20px;">Windows</a> <a href="/tags/Windows10/" style="font-size: 15.38px;">Windows10</a> <a href="/tags/Windows11/" style="font-size: 12.31px;">Windows11</a> <a href="/tags/Writer/" style="font-size: 10.77px;">Writer</a> <a href="/tags/Xeppetto/" style="font-size: 10.77px;">Xeppetto</a> <a href="/tags/Youtube/" style="font-size: 10.77px;">Youtube</a> <a href="/tags/convert/" style="font-size: 10px;">convert</a> <a href="/tags/fTPM/" style="font-size: 10px;">fTPM</a> <a href="/tags/mySQL/" style="font-size: 10px;">mySQL</a> <a href="/tags/%EA%B0%90%EC%82%AC%EC%9D%B8%EC%82%AC/" style="font-size: 10px;">감사인사</a> <a href="/tags/%EA%B0%9C%EC%9D%B8-%EC%82%AC%EC%A7%84/" style="font-size: 10px;">개인 사진</a> <a href="/tags/%EA%B1%B4%EA%B0%95%ED%95%98%EA%B2%8C-%EC%82%B4%EA%B8%B0/" style="font-size: 10.77px;">건강하게 살기</a> <a href="/tags/%EA%B2%8C%EC%9E%84/" style="font-size: 18.46px;">게임</a> <a href="/tags/%EA%B3%A0%EB%AF%BC/" style="font-size: 10px;">고민</a> <a href="/tags/%EA%B3%BC%EA%B1%B0/" style="font-size: 10px;">과거</a> <a href="/tags/%EA%B8%80-%EC%9E%98-%EC%93%B0%EB%8A%94-%EB%B0%A9%EB%B2%95/" style="font-size: 13.85px;">글 잘 쓰는 방법</a> <a href="/tags/%EA%B8%80%EC%93%B0%EA%B8%B0/" style="font-size: 14.62px;">글쓰기</a> <a href="/tags/%EA%B9%83%ED%97%99/" style="font-size: 16.92px;">깃헙</a> <a href="/tags/%EB%82%98%ED%98%BC%EC%9E%90-%EB%86%80%EA%B8%B0/" style="font-size: 10px;">나혼자 놀기</a> <a href="/tags/%EB%86%80%EC%9E%90/" style="font-size: 18.46px;">놀자</a> <a href="/tags/%EB%8F%84%EB%84%A4%EB%A6%AC%EC%B9%B4%EB%85%B8/" style="font-size: 10.77px;">도네리카노</a> <a href="/tags/%EB%A1%9C%EC%8A%A4%ED%8A%B8%EC%95%84%ED%81%AC/" style="font-size: 13.08px;">로스트아크</a> <a href="/tags/%EB%A7%88%EC%9A%B0%EC%8A%A4-%EC%9A%B0%ED%81%B4%EB%A6%AD-%EB%A9%94%EB%89%B4/" style="font-size: 13.85px;">마우스 우클릭 메뉴</a> <a href="/tags/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/" style="font-size: 16.92px;">마크다운</a> <a href="/tags/%EB%A7%9E%EC%B6%A4%EB%B2%95/" style="font-size: 13.85px;">맞춤법</a> <a href="/tags/%EB%A7%A4%EB%89%B4%EC%96%BC/" style="font-size: 18.46px;">매뉴얼</a> <a href="/tags/%EB%A7%A4%EC%9D%BC-%EA%B8%80%EC%93%B0%EA%B8%B0/" style="font-size: 10px;">매일 글쓰기</a> <a href="/tags/%EB%AF%B8%EB%9E%98/" style="font-size: 10px;">미래</a> <a href="/tags/%EB%B0%B0%EA%B2%BD%EC%9D%8C%EC%95%85/" style="font-size: 10.77px;">배경음악</a> <a href="/tags/%EB%B2%84%EA%B7%B8%EB%B3%B4%EA%B3%A0/" style="font-size: 13.85px;">버그보고</a> <a href="/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/" style="font-size: 10.77px;">블로그</a> <a href="/tags/%EC%83%88-%ED%95%B4-%EA%B3%84%ED%9A%8D/" style="font-size: 10px;">새 해 계획</a> <a href="/tags/%EC%83%9D%EA%B0%81/" style="font-size: 10px;">생각</a> <a href="/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/" style="font-size: 19.23px;">소프트웨어</a> <a href="/tags/%EC%8B%A4%EB%AC%B4/" style="font-size: 13.85px;">실무</a> <a href="/tags/%EC%8B%A4%EC%B2%9C/" style="font-size: 10px;">실천</a> <a href="/tags/%EC%95%88%EB%82%B4%EC%84%9C/" style="font-size: 18.46px;">안내서</a> <a href="/tags/%EC%97%B0%EB%A7%90-%EA%B2%B0%EC%8B%AC/" style="font-size: 10px;">연말 결심</a> <a href="/tags/%EC%97%B4%EC%A0%95/" style="font-size: 10px;">열정</a> <a href="/tags/%EC%9D%8C%EC%95%85/" style="font-size: 10.77px;">음악</a> <a href="/tags/%EC%9D%B8%EC%83%9D/" style="font-size: 11.54px;">인생</a> <a href="/tags/%EC%9D%B8%EC%83%9D-%EB%85%B8%EB%9E%98/" style="font-size: 10.77px;">인생 노래</a> <a href="/tags/%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8/" style="font-size: 10px;">인스타그램</a> <a href="/tags/%EC%9E%90%EB%8F%99%EC%99%84%EC%84%B1/" style="font-size: 10px;">자동완성</a> <a href="/tags/%EC%9E%AC%EB%B0%8B%EB%8B%A4/" style="font-size: 18.46px;">재밋다</a> <a href="/tags/%EC%9E%AC%EB%B0%8B%EC%9C%BC%EB%A9%B4-%EA%B7%B8%EB%A7%8C/" style="font-size: 10px;">재밋으면 그만</a> <a href="/tags/%EC%A0%95%EC%B2%B4%EC%84%B1/" style="font-size: 10px;">정체성</a> <a href="/tags/%EC%A6%90%EA%B2%81%EA%B2%8C-%EA%B8%80%EC%93%B0%EA%B8%B0/" style="font-size: 10.77px;">즐겁게 글쓰기</a> <a href="/tags/%EC%A6%90%EA%B2%81%EA%B2%8C-%EC%82%B4%EA%B8%B0/" style="font-size: 12.31px;">즐겁게 살기</a> <a href="/tags/%EC%A6%90%EA%B8%B0%EC%9E%90/" style="font-size: 18.46px;">즐기자</a> <a href="/tags/%EC%B2%9C%EB%85%84%EB%82%98%EB%AC%B4/" style="font-size: 13.85px;">천년나무</a> <a href="/tags/%EC%BB%A4%ED%94%BC/" style="font-size: 10.77px;">커피</a> <a href="/tags/%ED%85%8C%EC%8A%A4%ED%8C%85/" style="font-size: 13.85px;">테스팅</a> <a href="/tags/%ED%95%9C%EA%B5%AD%EC%96%B4/" style="font-size: 13.85px;">한국어</a> <a href="/tags/%ED%95%9C%EA%B8%80/" style="font-size: 13.85px;">한글</a> <a href="/tags/%ED%98%84%EC%9E%AC/" style="font-size: 10px;">현재</a> <a href="/tags/%ED%98%BC%EC%9E%A3%EB%A7%90/" style="font-size: 13.85px;">혼잣말</a> <a href="/tags/%ED%9B%84%EC%9B%90/" style="font-size: 10.77px;">후원</a>
         </div>
     </div>
 
