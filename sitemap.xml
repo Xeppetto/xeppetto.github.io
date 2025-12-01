@@ -137,15 +137,6 @@
   </url>
   
   <url>
-    <loc>https://xeppetto.github.io/Xeppetto/ThisBlog/20220430-localhost%EC%97%90%EC%84%9C-%EC%97%B4%EC%8B%AC%ED%9E%88-%EC%9E%91%EC%84%B1-%EC%A4%91/</loc>
-    
-    <lastmod>2022-04-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xeppetto.github.io/Software-Testing-and-QA/%ED%85%8C%EC%8A%A4%ED%8C%85-%EC%8B%A4%EB%AC%B4/%ED%85%8C%EC%8A%A4%ED%8C%85-%EB%B2%84%EA%B7%B8%EB%B3%B4%EA%B3%A0/%ED%85%8C%EC%8A%A4%ED%84%B0%EC%9D%98%EA%B8%80%EC%93%B0%EA%B8%B0-02%ED%8E%B8/</loc>
     
     <lastmod>2022-04-26</lastmod>
@@ -218,27 +209,9 @@
   </url>
   
   <url>
-    <loc>https://xeppetto.github.io/Xeppetto/ThisBlog/20220401-donaricano-closed/</loc>
-    
-    <lastmod>2022-03-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xeppetto.github.io/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/Tools/20220214-NotepadPlusPlus%EC%97%90%EC%84%9C-%EC%9E%90%EB%8F%99-%EC%99%84%EC%84%B1-%EB%81%84%EA%B8%B0/</loc>
     
     <lastmod>2022-02-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/Xeppetto/ThisBlog/20220108-%EC%98%88%EC%A0%84-%EA%B8%80%EB%93%A4-%EB%B3%B5%EA%B5%AC-%EA%B3%84%ED%9A%8D/</loc>
-    
-    <lastmod>2022-01-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -308,24 +281,6 @@
   </url>
   
   <url>
-    <loc>https://xeppetto.github.io/Xeppetto/ThisBlog/20211201-Instagram-Created/</loc>
-    
-    <lastmod>2021-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/Xeppetto/ThisBlog/20210712-donaricano-setting/</loc>
-    
-    <lastmod>2021-07-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xeppetto.github.io/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/Operating%20Systems/Windows/20210630_Windows11-compatibility-MBR-to-GPT/</loc>
     
     <lastmod>2021-06-30</lastmod>
@@ -365,15 +320,6 @@
     <loc>https://xeppetto.github.io/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/WSL-and-Docker/02-The-Reson-of-Making-Test-Environment/</loc>
     
     <lastmod>2021-06-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/Xeppetto/ThisBlog/20210601-what-i-am-doing-for-now-on-this-blog/</loc>
-    
-    <lastmod>2021-06-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -461,27 +407,9 @@
   </url>
   
   <url>
-    <loc>https://xeppetto.github.io/Xeppetto/ThisBlog/20210430-The-Reason-I-Started-Blogging-Again/</loc>
-    
-    <lastmod>2021-05-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xeppetto.github.io/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/WSL-and-Docker/16-Docker-Tibero/</loc>
     
     <lastmod>2021-05-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/Xeppetto/ThisBlog/20210502-grit-for-every-day/</loc>
-    
-    <lastmod>2021-05-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -646,55 +574,6 @@
   </url>
   
   <url>
-    <loc>https://xeppetto.github.io/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EA%B3%A0%EB%AF%BC/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EC%83%9D%EA%B0%81/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EC%A0%95%EC%B2%B4%EC%84%B1/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EB%A7%A4%EC%9D%BC-%EA%B8%80%EC%93%B0%EA%B8%B0/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EC%97%B4%EC%A0%95/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EC%9D%B8%EC%83%9D/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://xeppetto.github.io/tags/SCM-Music-Player/</loc>
     <lastmod>2025-12-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -737,140 +616,7 @@
   </url>
   
   <url>
-    <loc>https://xeppetto.github.io/tags/%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EA%B0%9C%EC%9D%B8-%EC%82%AC%EC%A7%84/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/Blog/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EC%B2%9C%EB%85%84%EB%82%98%EB%AC%B4/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%ED%9B%84%EC%9B%90/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EB%8F%84%EB%84%A4%EB%A6%AC%EC%B9%B4%EB%85%B8/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EC%BB%A4%ED%94%BC/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EC%A6%90%EA%B2%81%EA%B2%8C-%EA%B8%80%EC%93%B0%EA%B8%B0/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EC%A6%90%EA%B2%81%EA%B2%8C-%EC%82%B4%EA%B8%B0/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EA%B3%BC%EA%B1%B0/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%ED%98%84%EC%9E%AC/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EB%AF%B8%EB%9E%98/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/About/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/Writer/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/Xeppetto/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EC%83%88-%ED%95%B4-%EA%B3%84%ED%9A%8D/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EA%B1%B4%EA%B0%95%ED%95%98%EA%B2%8C-%EC%82%B4%EA%B8%B0/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://xeppetto.github.io/tags/%EA%B8%80%EC%93%B0%EA%B8%B0/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EB%82%98%ED%98%BC%EC%9E%90-%EB%86%80%EA%B8%B0/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/tags/%EC%9E%AC%EB%B0%8B%EC%9C%BC%EB%A9%B4-%EA%B7%B8%EB%A7%8C/</loc>
     <lastmod>2025-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1398,13 +1144,6 @@
   
   <url>
     <loc>https://xeppetto.github.io/categories/X%EC%9D%98%E8%A9%B1/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xeppetto.github.io/categories/X%EC%9D%98%E8%A9%B1/Lv8-%E3%81%AE%EA%BD%83%E6%80%AA%E7%8D%B8/</loc>
     <lastmod>2025-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
